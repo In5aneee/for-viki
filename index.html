@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ця сторінка створена тільки для тебе</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icon -->
+    <link rel="Icon" href="images/heart.gif" type="image/gif">
+</head>
+<body>
+    <div class="hearts"></div>
+    <div class="container">
+        <!-- Step 1 -->
+        <div class="step active" id="step1">
+            <img src="images/AshSnow.gif" alt="Cute Cat" class="cat-img">
+            <h1>Будеш моєю валентинкою сьогодні? 💝</h1>
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="goToStep2()">Так</button>
+                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">Ні</button>
+            </div>
+        </div>
+
+            <!-- Step 2 -->
+        <div class="step" id="step2">
+                <img src="images/are u sure.gif" alt="Cute Cat in Love" class="cat-img">
+                <h1>Ти мені подобаєшся, з тобою приємно проводити час, він пролітає просто як блискавка. Якщо це взаємно - настисни так 😼</h1>
+                <div class="buttons">
+                <button class="btn btn-yes" onclick="goToStep3()">Так, на всі 111%</button>
+                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">Треба подумати...</button>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step" id="step3">
+            <img src="images/Hugging.gif" alt="Cute Cat in Love" class="cat-img">
+            <h1>Хочеш проводити ще більше часу разом? ❤️</h1>
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="finalStep()">Так!</button>
+            </div>
+        </div>
+
+            <div class="final-message">
+                <img src="images/kisses.gif" alt="Cute Cat in Love" class="cat-img">
+                <p>ЕЕЕЕХХХУУУуууу, я так і знав, що це взаємно) тепер цей день точно особливий для нас двох, тому вечір сьогодні треба провести разом 🥰</p>
+                <p style="margin-top: 15px;">Напиши мні про це, кнопочка знизу📩!</p>
+            </div>
+
+            <a href="https://t.me/Go0nzales?text=❤️" class="facebook-btn" target="_blank">
+                написати :3 💌
+        </a>        
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+            
+
+        
+
 
